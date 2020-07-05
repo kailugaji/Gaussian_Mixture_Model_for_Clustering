@@ -4,7 +4,7 @@ Matlab code
 You can choose the methods of initialization and normalization.  
 The performance indices include ACC, ARI and ANMI.  
 ****  
-## An example for the iris data set  
+## An Example for Iris  
 Run demo_data.m  
 The results of iris is:  
 Iteration  1, the number of iterations: 38, Accuary: 0.96666667  
