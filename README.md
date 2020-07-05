@@ -24,4 +24,5 @@ The average rand index is: 0.95749441
 The average normalized mutual information is: 0.89969459  
 ## Author of Code  
 Rongrong Wang (kailugaji)   
-[My blog](https://www.cnblogs.com/kailugaji/)  
+[My blog](https://www.cnblogs.com/kailugaji/)    
+2020/7/5
