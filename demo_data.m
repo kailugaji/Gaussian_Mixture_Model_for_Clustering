@@ -3,8 +3,8 @@
 clear
 clc
 %% Setting the hyper-parameters
-choose_norm=2; % Normalization methods, 0: no normalization，1; z-score，2: max-min
-init=4; % Initialization methods, 1: random, 2: K-means, 3：fuzzt c-means, 4: K-means clustering, accelerated by matlab matrix operations.
+choose_norm=2; % Normalization methods, 0: no normalization, 1: z-score, 2: max-min
+init=4; % Initialization methods, 1: random, 2: K-means, 3: fuzzt c-means, 4: K-means clustering, accelerated by matlab matrix operations.
 repeat_num=10; % Repeat the experiment repeat_num times
 addpath(genpath('.'));
 %% Load data
