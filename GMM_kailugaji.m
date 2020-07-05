@@ -5,7 +5,7 @@ function [label_new, iter_GMM, para_miu, para_sigma, NegativeLogLikelihood, fitn
 % label_old: initializing label. N*1
 % Output:
 % label_new: results of cluster. N*1
-% real_iter: iterations
+% iter_GMM: iterations
 % Written by kailugaji. (wangrongrong1996@126.com)
 format long 
 %% initialization parameters
