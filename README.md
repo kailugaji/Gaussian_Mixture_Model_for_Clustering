@@ -1,6 +1,6 @@
 # Gaussian_Mixture_Model_for_Clustering   
 Gaussian Mixture Model for Clustering   
-Matlab code
+Matlab code  
 You can choose the methods of initialization and normalization.  
 The performance indices include ACC, ARI and ANMI.  
 ****  
@@ -22,6 +22,6 @@ The average running time is: 0.11719
 The average accuracy is: 0.96666667  
 The average rand index is: 0.95749441  
 The average normalized mutual informatio is: 0.89969459  
-## Author of Code
-Rongrong Wang (kailugaji) 
+## Author of Code  
+Rongrong Wang (kailugaji)   
 [My blog](https://www.cnblogs.com/kailugaji/)  
