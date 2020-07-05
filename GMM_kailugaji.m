@@ -8,7 +8,7 @@ function [label_new, iter_GMM, para_miu, para_sigma, NegativeLogLikelihood, fitn
 % iter_GMM: iterations
 % Written by kailugaji. (wangrongrong1996@126.com)
 format long 
-%% initialization parameters
+%% initializing parameters
 esp=1e-6;  % stopping criterion for iteration
 max_iter=1000;    % maximum number of iterations 
 beta=1e-4;  % a regularization coefficient of covariance matrix
