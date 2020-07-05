@@ -46,7 +46,7 @@ for t=1:max_iter
     % update sigma
     for k=1:K
         X_miu=X-repmat(para_miu(k, :), X_num, 1); % N*D
-        temp_X_miu_r=X_miu.*sqrt(responsivity(:, k)); % N%D
+        temp_X_miu_r=X_miu.*repmat(sqrt(responsivity(:, k)), 1, X_dim); % N*D
         para_sigma(:, :, k)=(temp_X_miu_r'*temp_X_miu_r)/R_k(k);
         para_sigma(:, :, k)=para_sigma(:, :, k)+beta*eye(X_dim);
         para_sigma_inv(:, :, k)=inv(para_sigma(:, :, k));  % sigma^(-1)
