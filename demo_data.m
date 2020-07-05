@@ -38,7 +38,7 @@ ave_run_time=run_time/repeat_num;
 ave_acc_GMM=mean(accuracy); max_acc_GMM=max(accuracy); min_acc_GMM=min(accuracy);std_acc_GMM=std(accuracy);
 ave_RI_GMM=mean(RI); max_RI_GMM=max(RI); min_RI_GMM=min(RI);std_RI_GMM=std(RI);
 ave_NMI_GMM=mean(NMI); max_NMI_GMM=max(NMI); min_NMI_GMM=min(NMI);std_NMI_GMM=std(NMI);
-fprintf('The average iteration number of the algorithm is: %.2f\nThe average running time is: %.5f\nThe average accuracy is: %.8f\nThe average rand index is: %.8f\nThe average normalized mutual informatio is: %.8f\n', ave_iter_GMM, ave_run_time, ave_acc_GMM, ave_RI_GMM, ave_NMI_GMM);
+fprintf('The average iteration number of the algorithm is: %.2f\nThe average running time is: %.5f\nThe average accuracy is: %.8f\nThe average rand index is: %.8f\nThe average normalized mutual information is: %.8f\n', ave_iter_GMM, ave_run_time, ave_acc_GMM, ave_RI_GMM, ave_NMI_GMM);
 ACC=[ave_acc_GMM; std_acc_GMM; max_acc_GMM; min_acc_GMM];
 ARI=[ave_RI_GMM; std_RI_GMM; max_RI_GMM; min_RI_GMM];
 ANMI=[ave_NMI_GMM; std_NMI_GMM; max_NMI_GMM; min_NMI_GMM];
