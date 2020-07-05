@@ -1,4 +1,6 @@
 # Gaussian_Mixture_Model_for_Clustering   
+Gaussian Mixture Model for Clustering   
+Matlab code
 You can choose the methods of initialization and normalization.  
 The performance indices include ACC, ARI and ANMI.  
 ****  
