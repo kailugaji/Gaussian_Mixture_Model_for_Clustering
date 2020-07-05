@@ -2,7 +2,7 @@ function [accuracy, RI, NMI]=performance_index(real_label,our_id)
 % Performance indices for clustering
 % Input:
 % real_label: Groundtruth. N*1
-% our_id：train label. N*1
+% our_id: train label. N*1
 % Output:
 % accuracy
 % RI: Rand index
