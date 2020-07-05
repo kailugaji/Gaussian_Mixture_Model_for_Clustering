@@ -5,7 +5,7 @@ Matlab code
 You can choose the methods of initialization and normalization.  
 The performance indices include ACC, ARI and ANMI.  
 ****  
-GMM algorithm:
+GMM algorithm:  
 ![](https://github.com/kailugaji/Gaussian_Mixture_Model_for_Clustering/blob/master/GMM.jpg) 
 ****  
 ## An Example for Iris  
