@@ -4,8 +4,8 @@ function [label_new, iter_GMM, para_miu, para_sigma, NegativeLogLikelihood, fitn
 % X: dataset, N*D
 % label_old: initializing label. N*1
 % Output:
-% label_new：results of cluster. N*1
-% real_iter：iterations
+% label_new: results of cluster. N*1
+% real_iter: iterations
 % Written by kailugaji. (wangrongrong1996@126.com)
 format long 
 %% initialization parameters
@@ -19,7 +19,7 @@ para_sigma_inv=zeros(X_dim, X_dim, K); % sigma^(-1)
 para_miu=zeros(K, X_dim); % the mean
 para_pi=zeros(1, K); % the mixing proportion
 log_N_pdf=zeros(X_num, K);  % log pdf
-%% initializing the mixing proportion、the mean and the covariance matrix
+%% initializing the mixing proportion, the mean and the covariance matrix
 for k=1:K
     X_k=X(label_old==k, :); 
     para_pi(k)=size(X_k, 1)/X_num;  
