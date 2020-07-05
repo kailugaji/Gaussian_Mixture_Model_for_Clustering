@@ -2,6 +2,7 @@
 Gaussian Mixture Model for Clustering  
 You can choose the methods of initialization and normalization.  
 The performance indices include ACC, ARI and ANMI.  
+****  
 An example for the iris data set.  
 Run demo_data.m  
 The results of iris is:  
